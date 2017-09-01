@@ -1,0 +1,40 @@
+.recommendations{
+    width: 100vw;
+    height: 50vh;
+    background-color: $green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vh;
+
+    &__button{
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 10vw;
+        transition: background-color;
+        transition-duration: 0.5s;
+    }
+
+    &__button:hover{
+        background-color: $grey;
+    }
+
+    &__movies-list{
+        list-style: none;
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__movie{
+        background-color: $red;
+        height: 45vh;
+        width: 45vw;
+        margin: 0 1vw;
+    }
+}

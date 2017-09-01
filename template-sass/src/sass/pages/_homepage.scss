@@ -1,0 +1,43 @@
+.navigation-home{
+    display: flex;
+    justify-content: center;
+    background: #D3D3D3;
+    a{
+        padding: 1.5vh 2vw;
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.3em;
+    }
+}
+
+.introduction{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    .product-carrousel{
+        width: 40vw;
+        display: flex;
+
+        img{
+            width: inherit;
+            height: inherit;
+            display: none;
+        }
+
+        button{
+            border: none;
+            &:hover{
+                background: #808080;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .introduction-text{
+        width: 60vw;
+        padding: 3vh 3vw;
+    }
+}
+
+
+
